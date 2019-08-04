@@ -1,1 +1,0 @@
-# bartoszgoc.github.io
