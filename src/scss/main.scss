@@ -1,14 +1,18 @@
 @import "_normalize";
 @import "_variables";
-
+@import "_variables";
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
 
 @import "modules/hero.scss";
 @import "modules/skills.scss";
+@import "modules/projects.scss";
 html {
   box-sizing: border-box;
   font-size: 16px;
   scroll-behavior: smooth;
+  @media (max-width: $mobile){
+    font-size: 12px;
+  }
 }
 
 *, *:before, *:after {
@@ -22,4 +26,9 @@ body {
   border: 16px solid $big-stone;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  max-width: 1184px;
+  margin: 0 auto;
 }
