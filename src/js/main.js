@@ -8,7 +8,9 @@ fetch('https://api.github.com/users/bartoszgoc/repos?sort=updated&direction=desc
    const repos = resp; 
    for (const repo of repos) {
      const {description, homepage, html_url, name} = repo;
-     list.innerHTML += `
+     if(description != null)
+     {
+         list.innerHTML += `
       <li class="project">
         <div class="project__container">
           <img class="project__logo" src="assets/img/github.svg" alt="">
@@ -26,6 +28,7 @@ fetch('https://api.github.com/users/bartoszgoc/repos?sort=updated&direction=desc
       </li>
      `;
    }
+}
   })
   .catch(err => {
     console.log(err);
