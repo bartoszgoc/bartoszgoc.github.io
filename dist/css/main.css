@@ -390,7 +390,7 @@ template {
   .skills-list__title {
     font-weight: 600;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 2.76rem;
     margin: 0; }
     .skills-list__title::before {
       content: '';
@@ -471,7 +471,7 @@ template {
       position: relative; }
       .project__link + .project__link::after {
         content: '';
-        height: 32px;
+        height: 2rem;
         width: 2px;
         background: #CBD2D9;
         display: block;
@@ -561,9 +561,6 @@ body {
   border: 16px solid #171F3F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media (max-width: 767px) {
-    body {
-      border: none; } }
 
 .container {
   max-width: 1216px;
