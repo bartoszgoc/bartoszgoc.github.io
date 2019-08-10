@@ -28,9 +28,13 @@ body {
   border: 16px solid $big-stone;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @media (max-width: $mobile) {
+    border: none;
+  }
 }
 
 .container{
-  max-width: 1184px;
+  max-width: 1216px;
+  padding: 0 16px;
   margin: 0 auto;
 }

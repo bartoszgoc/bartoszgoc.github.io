@@ -309,8 +309,8 @@ template {
   display: none; }
 
 .hero {
-  max-width: 1184px;
-  padding: 112px 0 184px;
+  max-width: 1216px;
+  padding: 112px 16px 184px;
   margin: 0 auto; }
   .hero__description {
     color: gray;
@@ -342,7 +342,8 @@ template {
     margin: 2rem 0 1rem; }
 
 .skills {
-  max-width: 1184px;
+  max-width: 1216px;
+  padding: 0 16px;
   margin: 0 auto 8rem; }
   .skills__title {
     font-size: 2.25rem;
@@ -419,8 +420,8 @@ template {
     margin: 0 auto 1rem;
     font-style: normal;
     font-weight: 600;
-    padding: 1rem 0;
-    max-width: 1184px; }
+    padding: 1rem 8px;
+    max-width: 1216px; }
 
 .projects-list {
   display: -ms-grid;
@@ -517,8 +518,8 @@ template {
     margin: 0 auto 1rem;
     font-style: normal;
     font-weight: 600;
-    padding: 8rem 0 0;
-    max-width: 1184px; }
+    padding: 8rem 16px 0;
+    max-width: 1216px; }
     .contact__title::before {
       content: '';
       width: 80px;
@@ -560,9 +561,13 @@ body {
   border: 16px solid #171F3F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  @media (max-width: 767px) {
+    body {
+      border: none; } }
 
 .container {
-  max-width: 1184px;
+  max-width: 1216px;
+  padding: 0 16px;
   margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
