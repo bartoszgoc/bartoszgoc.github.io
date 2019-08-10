@@ -1,4 +1,16 @@
-# wtf-gulp-starter
+![Bartosz Goc Homepage](src/assets/img/cover.png)
+
+# Bartosz Goc Homepage
+
+## Tools & technologies I've used
+
+-Visual Studio Code
+-SASS
+-Fetch API
+-CSS Grid
+...
+
+# build with wtf-gulp-starter
 
 `npm install -g gulp-cli`
 
