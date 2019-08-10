@@ -4,10 +4,10 @@
 
 ## Tools & technologies I've used
 
--Visual Studio Code
--SASS
--Fetch API
--CSS Grid
+- Visual Studio Code
+- SASS
+- Fetch API
+- CSS Grid
 ...
 
 # build with wtf-gulp-starter
