@@ -10,7 +10,7 @@
 - CSS Grid
 ...
 
-# build with wtf-gulp-starter
+### short how to run
 
 `npm install -g gulp-cli`
 
