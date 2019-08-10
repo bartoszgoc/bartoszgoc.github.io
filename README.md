@@ -8,7 +8,7 @@
 - SASS
 - Fetch API
 - CSS Grid
-...
+- ...
 
 ### short how to run
 
